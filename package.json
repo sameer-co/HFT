@@ -1,0 +1,19 @@
+{
+  "name": "solana-flip-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Cyclical USDC <-> SOL flip bot via Jupiter Swap API, cost/fee tracking, Neon (Postgres) persistence, Telegram reporting. Single-file.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
